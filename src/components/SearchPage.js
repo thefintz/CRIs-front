@@ -15,8 +15,8 @@ const SearchPage = (props) => {
   }
 
   const updateInput = async (input) => {
-    const filtered = crisListDefault.filter(cri => {
-      return cri.name.toLowerCase().includes(input.toLowerCase())
+    const filtered = crisListDefault.filter(crisData => {
+      return crisData.nome.toLowerCase().includes(input.toLowerCase())
     })
     setInput(input);
     setCRIsList(filtered);
@@ -40,7 +40,7 @@ const SearchPage = (props) => {
 
   return (
     <>
-      <h1>Country List</h1>
+      <h1>CRIs</h1>
       <SearchBar
         input={input}
         onChange={updateInput}
