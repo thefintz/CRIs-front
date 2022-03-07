@@ -1,14 +1,14 @@
 import React from 'react';
 
-const CountryList = ({countryList=[]}) => {
+const CRIsList = ({crisList=[]}) => {
   return (
     <>
-    { countryList.map((data,index) => {
+    { crisList.map((data,index) => {
         if (data) {
           return (
             <div key={data.name}>
-              <h1>{data.name}</h1>
-              <h3>{data.region}</h3>
+              <h1>{data.nome}</h1>
+              <h3>{data.localizacao.estado}</h3>
 	    </div>	
     	   )	
     	 }
@@ -18,4 +18,4 @@ const CountryList = ({countryList=[]}) => {
   );
 }
 
-export default CountryList
+export default CRIsList

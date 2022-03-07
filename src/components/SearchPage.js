@@ -1,40 +1,38 @@
 import React, { useState, useEffect } from 'react';
 import SearchBar from './SearchBar';
-import CountryList from './CountryList';
+import CRIsList from './CRIsList';
+import CRIsData from './CRIsData';
 
 const SearchPage = (props) => {
   const [input, setInput] = useState('');
-  const [countryListDefault, setCountryListDefault] = useState();
-  const [countryList, setCountryList] = useState();
+  const [crisListDefault, setCRIsListDefault] = useState();
+  const [crisList, setCRIsList] = useState();
 
   const fetchData = async () => {
-    return await fetch('https://restcountries.com/v2/all')
-      .then(response => response.json())
-      .then(data => {
-        setCountryList(data)
-        setCountryListDefault(data)
-      });
+    const data = CRIsData
+    setCRIsList(data)
+    setCRIsListDefault(data)
   }
 
   const updateInput = async (input) => {
-    const filtered = countryListDefault.filter(country => {
-      return country.name.toLowerCase().includes(input.toLowerCase())
+    const filtered = crisListDefault.filter(cri => {
+      return cri.name.toLowerCase().includes(input.toLowerCase())
     })
     setInput(input);
-    setCountryList(filtered);
+    setCRIsList(filtered);
   }
 
   const setRegion = async (filterParam) => {
     if (filterParam === 'All') {
-      const filtered = countryListDefault.filter(country => {
+      const filtered = crisListDefault.filter(cri => {
         return true
       })
-      setCountryList(filtered);
+      setCRIsList(filtered);
     } else {
-      const filtered = countryListDefault.filter(country => {
-        return country.region === filterParam
+      const filtered = crisListDefault.filter(cri => {
+        return cri.localizacao.estado === filterParam
       })
-      setCountryList(filtered);
+      setCRIsList(filtered);
     }
   }
 
@@ -60,16 +58,18 @@ const SearchPage = (props) => {
           className="custom-select"
           aria-label="Filter Countries By Countries"
         >
-          <option value="All">Filter By Region</option>
-          <option value="Africa">Africa</option>
-          <option value="Americas">America</option>
-          <option value="Asia">Asia</option>
-          <option value="Europe">Europe</option>
-          <option value="Oceania">Oceania</option>
+          <option value="All">Todos os estados</option>
+          <option value="AP">Amapá</option>
+          <option value="PA">Pará</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="TO">Tocantings</option>
+          <option value="SP">São Paulo</option>
+          <option value="PR">Paraná</option>
+          <option value="MT">Mato Grosso</option>
         </select>
         <span className="focus"></span>
       </div>
-      <CountryList countryList={countryList} />
+      <CRIsList crisList={crisList} />
     </>
   );
 }
