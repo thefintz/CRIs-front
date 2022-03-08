@@ -358,7 +358,7 @@ const data = [
       "numero": "",
       "bairro": "Ingleses",
       "cidade": "Florianópolis",
-      "estado": "PR"
+      "estado": "SC"
     }
   },
   {

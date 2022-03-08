@@ -4,7 +4,7 @@ import SearchPage from './components/SearchPage.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{"background": "#f6f9fc", "minHeight": "100vh"}}>
       <SearchPage />
     </div>
   );

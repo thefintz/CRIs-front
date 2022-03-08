@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import SearchBar from './SearchBar';
+import FiltroCidade from './FiltroCidade';
 import CRIsList from './CRIsList';
+import FiltroEstado from './FiltroEstado';
+import FiltroVolumeMinimo from './FiltroVolumeMinimo';
 import CRIsData from './CRIsData';
 
 const SearchPage = (props) => {
   const [input, setInput] = useState('');
+  const [estado, setEstado] = useState('All');
+  const [volumeMinimo, setVolumeMinimo] = useState('1');
   const [crisListDefault, setCRIsListDefault] = useState();
   const [crisList, setCRIsList] = useState();
 
@@ -15,25 +19,37 @@ const SearchPage = (props) => {
   }
 
   const updateInput = async (input) => {
-    const filtered = crisListDefault.filter(crisData => {
-      return crisData.nome.toLowerCase().includes(input.toLowerCase())
-    })
-    setInput(input);
-    setCRIsList(filtered);
+    await setInput(input);
+    updateFilters(input, volumeMinimo, estado);
   }
 
-  const setRegion = async (filterParam) => {
-    if (filterParam === 'All') {
-      const filtered = crisListDefault.filter(cri => {
-        return true
-      })
-      setCRIsList(filtered);
-    } else {
-      const filtered = crisListDefault.filter(cri => {
-        return cri.localizacao.estado === filterParam
-      })
-      setCRIsList(filtered);
-    }
+  const updateEstado = async (estado) => {
+    await setEstado(estado);
+    updateFilters(input, volumeMinimo, estado);
+  }
+
+  const updateVolumeMinimo = async (volumeMinimo) => {
+    await setVolumeMinimo(volumeMinimo);
+    updateFilters(input, volumeMinimo, estado);
+  }
+
+  const updateFilters = async (input, volumeMinimo, estado) => {
+    const filteredInput = crisListDefault.filter(crisData => {
+      return crisData.localizacao.cidade
+        .toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, "") // remove accentuation
+        .includes(input.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ""))
+    })
+    const filteredVolumeMinimo = crisListDefault.filter(crisData => {
+      return crisData.valorTotal >= volumeMinimo * 1_000_000
+    })
+    const filteredEstado = crisListDefault.filter(cri => {
+      return estado === 'All' ? true : cri.localizacao.estado === estado
+    })
+    const multiFilter0 = crisListDefault.filter(value => filteredInput.includes(value));
+    const multiFilter1 = multiFilter0.filter(value => filteredVolumeMinimo.includes(value));
+    const multiFilter2 = multiFilter1.filter(value => filteredEstado.includes(value));
+    setCRIsList(multiFilter2);
   }
 
   useEffect(() => { fetchData() }, []);
@@ -41,34 +57,18 @@ const SearchPage = (props) => {
   return (
     <>
       <h1>CRIs</h1>
-      <SearchBar
+      <FiltroEstado
+        estado={estado}
+        onChange={updateEstado}
+      />
+      <FiltroCidade
         input={input}
         onChange={updateInput}
       />
-      <div className="select">
-        <select
-          /* 
-          // here we create a basic select input
-          // we set the value to the selected value 
-          // and update the setC() state every time onChange is called
-          */
-          onChange={(e) => {
-            setRegion(e.target.value);
-          }}
-          className="custom-select"
-          aria-label="Filter Countries By Countries"
-        >
-          <option value="All">Todos os estados</option>
-          <option value="AP">Amapá</option>
-          <option value="PA">Pará</option>
-          <option value="RS">Rio Grande do Sul</option>
-          <option value="TO">Tocantings</option>
-          <option value="SP">São Paulo</option>
-          <option value="PR">Paraná</option>
-          <option value="MT">Mato Grosso</option>
-        </select>
-        <span className="focus"></span>
-      </div>
+      <FiltroVolumeMinimo
+        volumeMinimo={volumeMinimo}
+        onChange={updateVolumeMinimo}
+      />
       <CRIsList crisList={crisList} />
     </>
   );
