@@ -6,7 +6,7 @@ const SearchBar = ({input:keyword, onChange:setKeyword}) => {
   return (
     <div>
       <span> Cidade: </span>
-      <input 
+      <input
       style={BarStyling}
       key="random1"
       value={keyword}
