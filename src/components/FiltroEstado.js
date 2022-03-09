@@ -24,7 +24,7 @@ const FiltroEstado = ({input:keyword, onChange:updateInput}) => {
           <option value="RS">Rio Grande do Sul</option>
           <option value="SC">Santa Catarina</option>
           <option value="SP">São Paulo</option>
-          <option value="TO">Tocantings</option>
+          <option value="TO">Tocantins</option>
         </select>
         <span className="focus"></span>
       </div>
