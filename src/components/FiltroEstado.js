@@ -4,10 +4,11 @@ const FiltroEstado = ({input:keyword, onChange:updateInput}) => {
   return (
     <>
       <div className="select">
+        <span>Estado: </span>
         <select
-          /* 
+          /*
           // here we create a basic select input
-          // we set the value to the selected value 
+          // we set the value to the selected value
           // and update the setC() state every time onChange is called
           */
           onChange={(e) => {
