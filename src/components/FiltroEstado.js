@@ -18,11 +18,14 @@ const FiltroEstado = ({input:keyword, onChange:updateInput}) => {
         >
           <option value="All">Todos os estados</option>
           <option value="AP">Amapá</option>
+          <option value="MG">Minas Gerais</option>
           <option value="MT">Mato Grosso</option>
           <option value="PA">Pará</option>
           <option value="PR">Paraná</option>
+          <option value="RR">Roraima</option>
           <option value="RS">Rio Grande do Sul</option>
           <option value="SC">Santa Catarina</option>
+          <option value="SE">Sergipe</option>
           <option value="SP">São Paulo</option>
           <option value="TO">Tocantins</option>
         </select>

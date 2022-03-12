@@ -1,7 +1,7 @@
 import React from 'react';
 
 const FiltroVolumeMinimo = ({input:keyword, onChange:setVolumeMinimo}) => {
-  const BarStyling = {width:"2rem",background:"white", border:"none", padding:"0.5rem"};
+  const BarStyling = {width:"3rem",background:"white", border:"none", padding:"0.5rem"};
   return (
     <div>
       <span> Volume mínimo: R$ </span>

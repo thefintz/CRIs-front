@@ -13,7 +13,7 @@ const data = [
       {
         "indexador": "IPCA",
         "juros": "11%",
-        "cota": "senior"
+        "cota": "sênior"
       },
       {
         "indexador": "IPCA",
@@ -62,7 +62,7 @@ const data = [
       {
         "indexador": "IPCA",
         "juros": "10%",
-        "cota": "senior"
+        "cota": "sênior"
       },
       {
         "indexador": "IPCA",
@@ -102,7 +102,7 @@ const data = [
       {
         "indexador": "IPCA",
         "juros": "10%",
-        "cota": "senior"
+        "cota": "sênior"
       },
       {
         "indexador": "IPCA",
@@ -173,7 +173,7 @@ const data = [
       {
         "indexador": "IPCA",
         "juros": "10%",
-        "cota": "senior"
+        "cota": "sênior"
       },
       {
         "indexador": "IPCA",
@@ -211,7 +211,7 @@ const data = [
       {
         "indexador": "IPCA",
         "juros": "10%",
-        "cota": "senior"
+        "cota": "sênior"
       },
       {
         "indexador": "IPCA",
@@ -253,7 +253,7 @@ const data = [
       {
         "indexador": "IPCA",
         "juros": "8.50%",
-        "cota": "senior"
+        "cota": "sênior"
       },
       {
         "indexador": "IPCA",
@@ -291,7 +291,7 @@ const data = [
       {
         "indexador": "IPCA",
         "juros": "10%",
-        "cota": "senior"
+        "cota": "sênior"
       },
       {
         "indexador": "IPCA",
@@ -329,7 +329,7 @@ const data = [
       {
         "indexador": "IPCA",
         "juros": "10%",
-        "cota": "senior"
+        "cota": "sênior"
       },
       {
         "indexador": "IPCA",
@@ -375,7 +375,7 @@ const data = [
       {
         "indexador": "IPCA",
         "juros": "10%",
-        "cota": "senior"
+        "cota": "sênior"
       },
       {
         "indexador": "IPCA",
@@ -397,6 +397,567 @@ const data = [
       "bairro": "Centro",
       "cidade": "Gramado",
       "estado": "RS"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_BILD CORP BILD",
+    "dataEmissao": "2022-02-21",
+    "dataVencimento": "2027-02-24",
+    "quantidadeEmitida": 150000,
+    "valorTotal": 150000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BILD/20220217141926695-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "DI",
+        "juros": 3.15,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "BIVI HOLDING S.A.",
+        "cnpj": "08964236000150"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BILD/20220302124507619-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Ribeirão Preto",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_ESTRUT_RORAIMA ESTR RORAIMA",
+    "dataEmissao": "2022-01-25",
+    "dataVencimento": "2034-01-18",
+    "quantidadeEmitida": 40000,
+    "valorTotal": 40000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ESTRUT_RORAIMA/20220126130950291-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 7.15,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "SHOPPING PÁTIO RORAIMA SPE LTDA",
+        "cnpj": "17871993000170"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ESTRUT_RORAIMA/20220207134929836-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ESTRUT_RORAIMA/20220203213218071-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ESTRUT_RORAIMA/20220204140759690-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "João Alencar",
+      "numero": "2181",
+      "cidade": "Boa Vista",
+      "estado": "RR"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_CORP_MAUA_CAPITAL CORP MAUÁ ALIANZA",
+    "dataEmissao": "2022-01-12",
+    "dataVencimento": "2032-01-15",
+    "quantidadeEmitida": 29500,
+    "valorTotal": 29500000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CORP_MAUA_CAPITAL/20220117233521966-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 7.2,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "ALIANZA URBAN HUB RENDA FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+        "cnpj": "41076823000188"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CORP_MAUA_CAPITAL/20220119153222163-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Estrada da Olaria",
+      "numero": "600",
+      "bairro": "Bairro dos Pimentas",
+      "cidade": "Guarulhos",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_ESTR_GAFISA_FLOW ESTR GAFISA FLOW",
+    "dataEmissao": "2021-12-27",
+    "dataVencimento": "2024-12-24",
+    "quantidadeEmitida": 25000,
+    "valorTotal": 25000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ESTR_GAFISA_FLOW/20211230212503839-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "DI",
+        "juros": 4.5,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "PLEWADES EMPREENDIMENTOS IMOBILIARIOS LTDA",
+        "cnpj": "39495136000155"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ESTR_GAFISA_FLOW/20211230212553288-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Nestor Pestana",
+      "numero": "60,66,88",
+      "bairro": "Consolação",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_ARENA_MRV PULV ARENA MRV",
+    "dataEmissao": "2021-12-20",
+    "dataVencimento": "2026-12-22",
+    "quantidadeEmitida": 200000,
+    "valorTotal": 200000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ARENA_MRV/20211217122022353-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "DI",
+        "juros": 4.75,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "ARENA VENCER COMPLEXO ESPORTIVO MULTIUSO SPE LTDA",
+        "cnpj": "25090380000123"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ARENA_MRV/20211227200708973-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "bairro": "California",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_CORP_MPD_II CORP MPD II",
+    "dataEmissao": "2021-12-17",
+    "dataVencimento": "2024-12-16",
+    "quantidadeEmitida": 30000,
+    "valorTotal": 30000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CORP_MPD_II/20211218135022048-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "DI",
+        "juros": 3.6,
+        "cota": ""
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "MPD INVESTIMENTOS IMOBILIARIOS LTDA.",
+        "cnpj": "12284455000165"
+      }
+    ],
+    "aditamentos": [],
+    "localizacao": {
+      "cidade": "Barueri",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_CONEDI CORP CONEDI",
+    "dataEmissao": "2021-12-17",
+    "dataVencimento": "2024-12-18",
+    "quantidadeEmitida": 100000,
+    "valorTotal": 100000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CONEDI/20211215221813084-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "DI",
+        "juros": 2,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "CONEDI PARTICIPAÇÕES LTDA.",
+        "cnpj": "07353227000160"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CONEDI/20220224192128327-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CONEDI/20220111163548584-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CONEDI/20211222130910751-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Avenida Barão Homem de Melo",
+      "numero": "2222",
+      "bairro": "Estoril",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_CORP_HAPIVIDA CORP HAPVIDA",
+    "dataEmissao": "2021-12-15",
+    "dataVencimento": "2031-12-15",
+    "quantidadeEmitida": 1001700,
+    "valorTotal": 1001700000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CORP_HAPIVIDA/20211104202005456-Termo_de_Securitização.PDF",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 5.7505,
+        "cota": ""
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "Ultra Som Serviços Médicos S.A",
+        "cnpj": "12361267000193"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CORP_HAPIVIDA/20211206204332439-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Avenida Barão Homem de Melo",
+      "numero": "2222",
+      "bairro": "Estoril",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_ARAUJO_FONTES_MARCA_BRASIL PULV MARCA BRASIL",
+    "dataEmissao": "2021-12-01",
+    "dataVencimento": "2025-12-17",
+    "quantidadeEmitida": 15000,
+    "valorTotal": 15000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ARAUJO_FONTES_MARCA_BRASIL/20211201214235626-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 15.3894,
+        "cota": ""
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "MARCA BRASIL CONSTRUTORA LTDA.",
+        "cnpj": "11321885000147"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ARAUJO_FONTES_MARCA_BRASIL/20211214214916544-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_BBI_MASA CORP MASA",
+    "dataEmissao": "2021-11-25",
+    "dataVencimento": "2029-11-16",
+    "quantidadeEmitida": 100000,
+    "valorTotal": 100000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BBI_MASA/20211126184212789-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "DI",
+        "juros": 2.99,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "Masa Doze Empreendimentos Imobiliários Ltda",
+        "cnpj": "09247385000160"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BBI_MASA/20211130192350954-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Alameda Araguaia",
+      "numero": "2104",
+      "bairro": "Unidade Autônoma 43A",
+      "cidade": "Barueri",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_EMPIRICA_EMA ESTR EMA",
+    "dataEmissao": "2021-11-05",
+    "dataVencimento": "2033-11-16",
+    "quantidadeEmitida": 59000,
+    "valorTotal": 59000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_EMPIRICA_EMA/20211105153511569-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 10,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "Ema Planejamento e Incorporações LTDA",
+        "cnpj": "27718230000147"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_EMPIRICA_EMA/20211116214931712-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Rodovia Estadual SE-100",
+      "numero": "",
+      "bairro": "Barra dos Coqueiros, Centro",
+      "cidade": "Barra dos Coqueiros",
+      "estado": "SE"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_PORTE_III CORP PORTE III",
+    "dataEmissao": "2021-11-04",
+    "dataVencimento": "2024-11-08",
+    "quantidadeEmitida": 12000,
+    "valorTotal": 12000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_PORTE_III/20211105152836824-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 8,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "Porte Engenharia e Urbanismo LTDA",
+        "cnpj": "56233935000172"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_PORTE_III/20211111211341173-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Airi",
+      "numero": "227",
+      "bairro": "Tatuapé",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_CORP_GRUPO_ABV ESTR GRUPO ABV",
+    "dataEmissao": "2021-11-03",
+    "dataVencimento": "2033-10-17",
+    "quantidadeEmitida": 135041,
+    "valorTotal": 135041000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CORP_GRUPO_ABV/20211103190114614-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 7,
+        "cota": ""
+      },
+      {
+        "indexador": "IPCA",
+        "juros": 8.5,
+        "cota": ""
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "ABV COMÉRCIO DE ALIMENTOS LTDA",
+        "cnpj": "04757459000195"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CORP_GRUPO_ABV/20220211161410291-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CORP_GRUPO_ABV/20211105205554501-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_CORP_GLOBAL_REALTY ESTR GLOBAL REALTY",
+    "dataEmissao": "2021-10-20",
+    "dataVencimento": "2026-10-20",
+    "quantidadeEmitida": 37220,
+    "valorTotal": 37220000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CORP_GLOBAL_REALTY/20211020192104047-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 9,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "CARDOSO 432 SPE EMPREENDIMENTO IMOBILIARIO LTDA.",
+        "cnpj": "43774929000180"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CORP_GLOBAL_REALTY/20211027143210446-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Cardoso de Almeida",
+      "numero": "444",
+      "bairro": "Perdizes",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_OCEAN_BARRA ESTR OCEAN BARRA",
+    "dataEmissao": "2021-10-15",
+    "dataVencimento": "2031-08-22",
+    "quantidadeEmitida": 11384,
+    "valorTotal": 11384000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_OCEAN_BARRA/20211018141007201-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 10,
+        "cota": ""
+      },
+      {
+        "indexador": "IPCA",
+        "juros": 12.39,
+        "cota": ""
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "Ocean Barra Residence Ltda",
+        "cnpj": "37080511000170"
+      }
+    ],
+    "aditamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_OCEAN_BARRA/20211020153816961-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Rodovia SE-100, km7",
+      "numero": "",
+      "bairro": "Povoado Capua",
+      "cidade": "Barra dos Coqueiros",
+      "estado": "SE"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_BBI_TENDA CORP TENDA",
+    "dataEmissao": "2021-10-15",
+    "dataVencimento": "2028-10-15",
+    "quantidadeEmitida": 329399,
+    "valorTotal": 329399000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BBI_TENDA/20211110174108688-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 6.4803,
+        "cota": "única"
+      },
+      {
+        "indexador": "IPCA",
+        "juros": 6.9809,
+        "cota": ""
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "TENDA ATACADO LTDA",
+        "cnpj": "01157555000104"
+      }
+    ],
+    "aditamentos": [],
+    "localizacao": {
+      "cidade": "",
+      "estado": "SP"
     }
   }
 ]

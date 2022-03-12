@@ -4,6 +4,7 @@ import CRIsList from './CRIsList';
 import FiltroEstado from './FiltroEstado';
 import FiltroVolumeMinimo from './FiltroVolumeMinimo';
 import CRIsData from './CRIsData';
+import Navbar from './Navbar';
 
 const SearchPage = (props) => {
   const [input, setInput] = useState('');
@@ -56,7 +57,10 @@ const SearchPage = (props) => {
 
   return (
     <>
+      <Navbar/>
+      <br></br>
       <h1>CRIs</h1>
+
       <FiltroEstado
         estado={estado}
         onChange={updateEstado}
