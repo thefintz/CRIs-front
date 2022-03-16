@@ -12,12 +12,12 @@ const data = [
     "ativos": [
       {
         "indexador": "IPCA",
-        "juros": "11%",
+        "juros": 11,
         "cota": "sênior"
       },
       {
         "indexador": "IPCA",
-        "juros": "16%",
+        "juros": 16,
         "cota": "subordinada"
       }
     ],
@@ -61,12 +61,12 @@ const data = [
     "ativos": [
       {
         "indexador": "IPCA",
-        "juros": "10%",
+        "juros": 10,
         "cota": "sênior"
       },
       {
         "indexador": "IPCA",
-        "juros": "15%",
+        "juros": 15,
         "cota": "subordinada"
       }
     ],
@@ -101,12 +101,12 @@ const data = [
     "ativos": [
       {
         "indexador": "IPCA",
-        "juros": "10%",
+        "juros": 10,
         "cota": "sênior"
       },
       {
         "indexador": "IPCA",
-        "juros": "15%",
+        "juros": 15,
         "cota": "subordinada"
       }
     ],
@@ -139,7 +139,7 @@ const data = [
     "ativos": [
       {
         "indexador": "IPCA",
-        "juros": "8.50%",
+        "juros": 8.50,
         "cota": ""
       }
     ],
@@ -172,12 +172,12 @@ const data = [
     "ativos": [
       {
         "indexador": "IPCA",
-        "juros": "10%",
+        "juros": 10,
         "cota": "sênior"
       },
       {
         "indexador": "IPCA",
-        "juros": "15%",
+        "juros": 15,
         "cota": "subordinada"
       }
     ],
@@ -210,12 +210,12 @@ const data = [
     "ativos": [
       {
         "indexador": "IPCA",
-        "juros": "10%",
+        "juros": 10,
         "cota": "sênior"
       },
       {
         "indexador": "IPCA",
-        "juros": "17.5%",
+        "juros": 17.5,
         "cota": "subordinada"
       }
     ],
@@ -252,12 +252,12 @@ const data = [
     "ativos": [
       {
         "indexador": "IPCA",
-        "juros": "8.50%",
+        "juros": 8.50,
         "cota": "sênior"
       },
       {
         "indexador": "IPCA",
-        "juros": "10.17%",
+        "juros": 10.17,
         "cota": "subordinada"
       }
     ],
@@ -290,12 +290,12 @@ const data = [
     "ativos": [
       {
         "indexador": "IPCA",
-        "juros": "10%",
+        "juros": 10,
         "cota": "sênior"
       },
       {
         "indexador": "IPCA",
-        "juros": "14,38%",
+        "juros": 14.38,
         "cota": "subordinada"
       }
     ],
@@ -328,12 +328,12 @@ const data = [
     "ativos": [
       {
         "indexador": "IPCA",
-        "juros": "10%",
+        "juros": 10,
         "cota": "sênior"
       },
       {
         "indexador": "IPCA",
-        "juros": "17.50%",
+        "juros": 17.50,
         "cota": "subordinada"
       }
     ],
@@ -374,12 +374,12 @@ const data = [
     "ativos": [
       {
         "indexador": "IPCA",
-        "juros": "10%",
+        "juros": 10,
         "cota": "sênior"
       },
       {
         "indexador": "IPCA",
-        "juros": "13.34%",
+        "juros": 13.34,
         "cota": "subordinada"
       }
     ],
@@ -1266,11 +1266,6 @@ const data = [
         "indexador": "DI",
         "juros": 4.9,
         "cota": "única"
-      },
-      {
-        "indexador": "DI",
-        "juros": 4.9,
-        "cota": null
       }
     ],
     "cedentes": [
@@ -1377,11 +1372,6 @@ const data = [
         "indexador": "IPCA",
         "juros": 7.3557,
         "cota": null
-      },
-      {
-        "indexador": "IPCA",
-        "juros": 7.3557,
-        "cota": null
       }
     ],
     "cedentes": [
@@ -1481,7 +1471,7 @@ const data = [
     "dataEmissao": "2021-08-04",
     "dataVencimento": "2029-02-15",
     "quantidadeEmitida": 29417,
-    "valorTotal": 29417241.14,
+    "valorTotal": 29417241,
     "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ATHENA_I/202189134238484-Termo de Securitização CRI Athena Capitânia - i2a 040821 Versão Assinatura.pdf",
     "ativos": [
       {
@@ -1556,7 +1546,7 @@ const data = [
     "ativos": [
       {
         "indexador": "DI",
-        "juros": null,
+        "juros": 5,
         "cota": ""
       }
     ],
@@ -1627,7 +1617,7 @@ const data = [
     "ativos": [
       {
         "indexador": "DI",
-        "juros": null,
+        "juros": 5.35,
         "cota": "única"
       }
     ],
@@ -1699,21 +1689,6 @@ const data = [
         "indexador": "IPCA",
         "juros": 6.47,
         "cota": "única"
-      },
-      {
-        "indexador": "IPCA",
-        "juros": 6.47,
-        "cota": "única"
-      },
-      {
-        "indexador": "IPCA",
-        "juros": 6.47,
-        "cota": "única"
-      },
-      {
-        "indexador": "IPCA",
-        "juros": 6.47,
-        "cota": "única"
       }
     ],
     "cedentes": [
@@ -1745,11 +1720,6 @@ const data = [
     "valorTotal": 120000000,
     "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CID255-INVER01/2021624143733281-CRI Invert - Termo de Securitizaçao.pdf",
     "ativos": [
-      {
-        "indexador": "DI",
-        "juros": 4,
-        "cota": null
-      },
       {
         "indexador": "DI",
         "juros": 4,
@@ -1818,24 +1788,9 @@ const data = [
     "dataEmissao": "2021-06-21",
     "dataVencimento": "2033-06-27",
     "quantidadeEmitida": 82305,
-    "valorTotal": 82305180.53999999,
+    "valorTotal": 82305180,
     "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_OBA/2021628162617347-Termo_de_Securitização_-_CRI_Oba_-_TCMB_22062021_-_Versão_Assinatura.DOCX.pdf",
     "ativos": [
-      {
-        "indexador": "IPCA",
-        "juros": 6.4,
-        "cota": null
-      },
-      {
-        "indexador": "IPCA",
-        "juros": 6.4,
-        "cota": null
-      },
-      {
-        "indexador": "IPCA",
-        "juros": 6.4,
-        "cota": null
-      },
       {
         "indexador": "IPCA",
         "juros": 6.4,
