@@ -13,19 +13,16 @@ const CRIsList = ({crisList=[]}) => {
     { crisList.map((cri,index) => {
       if (cri) {
         return (
-          <div class="columns">
-            <div class="column"/>
-
-            <div class="column is-half has-text-left">
+            <div class="has-text-left">
               <div key={cri.nome} style={cardStyle} >
                 <div class="columns">
 
                   <div class="column">
-                    <span class="is-size-2 has-text-info"> R${cri.valorTotal > 1_000_000_000 ? cri.valorTotal/1_000_000_000 + 'B' : cri.valorTotal/1_000_000 + 'M' } </span>
+                    <span class="is-size-3 has-text-info"> R${cri.valorTotal > 1_000_000_000 ? cri.valorTotal/1_000_000_000 + 'B' : cri.valorTotal/1_000_000 + 'M' } </span>
                     {
                       cri.ativos.map((item) => (
                         <div key={item.juros}>
-                        <p>{item.indexador} + {item.juros} {item.cota}</p>
+                        <p>{item.indexador} + {item.juros}% {item.cota}</p>
                       </div>
                     ))
                   }
@@ -53,9 +50,6 @@ const CRIsList = ({crisList=[]}) => {
                   }
               </div>
             </div>
-
-            <div class="column"/>
-          </div>
         )	
       }
       return null
