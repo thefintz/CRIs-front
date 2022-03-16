@@ -954,8 +954,907 @@ const data = [
         "cnpj": "01157555000104"
       }
     ],
-    "aditamentos": [],
+    "adiantamentos": [],
     "localizacao": {
+      "rua": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_MINT_VILA_MASCOTE CORP VILA MASCOTE",
+    "dataEmissao": "2021-10-08",
+    "dataVencimento": "2036-09-22",
+    "quantidadeEmitida": 12035,
+    "valorTotal": 12035000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_MINT_VILA_MASCOTE/20211014193015054-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 7,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "MINT EDUCAÇÃO VILA MASCOTE SPE LTDA",
+        "cnpj": "43633052000108"
+      }
+    ],
+    "adiantamentos": [],
+    "localizacao": {
+      "rua": "Gustavo da Silveira",
+      "numero": "164",
+      "bairro": "42º Subdistrito-Jabaquara",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_NOVA_MARECHAL ESTR NOVA MARECHAL",
+    "dataEmissao": "2021-09-30",
+    "dataVencimento": "2035-01-22",
+    "quantidadeEmitida": 17000,
+    "valorTotal": 17000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_NOVA_MARECHAL/20210928200243348-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 9,
+        "cota": null
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "Nova Marechal Empreendimentos Imobiliários SPE Ltda",
+        "cnpj": "28796534000195"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_NOVA_MARECHAL/20210930142943426-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Marechal Deodoro",
+      "estado": "AL"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_BLUEMACAM_CATUAI ESTR BLUEMACAM CATUAI 3",
+    "dataEmissao": "2021-09-30",
+    "dataVencimento": "2031-09-15",
+    "quantidadeEmitida": 270100,
+    "valorTotal": 270100000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BLUEMACAM_CATUAI/20210928003821646-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 5.9193,
+        "cota": null
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "BLUEMACAW LOGÍSTICA FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+        "cnpj": "34081637000171"
+      }
+    ],
+    "adiantamentos": [],
+    "localizacao": {
+      "rua": "Avenida Brigadeiro Faria Lima",
+      "numero": "334777",
+      "bairro": "",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_SAO_CARLOS_CS CORP SAHA",
+    "dataEmissao": "2021-09-23",
+    "dataVencimento": "2031-09-22",
+    "quantidadeEmitida": 111649,
+    "valorTotal": 111649000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_SAO_CARLOS_CS/20210916143455340-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 5.25,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "SAHA ADMINISTRAÇÃO E PARTICIPAÇÕES S.A",
+        "cnpj": "02781837000140"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_SAO_CARLOS_CS/20210928203752252-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Rodovia Engenheiro Thales de Lorena Peixoto Júnior, km 9.5",
+      "numero": "",
+      "bairro": "",
+      "cidade": "São Carlos",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_LEONARDO CORP LEONARDO",
+    "dataEmissao": "2021-09-16",
+    "dataVencimento": "2036-09-22",
+    "quantidadeEmitida": 395700,
+    "valorTotal": 395700000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_LEONARDO/20210917173611408-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 6.25,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "VINCI SHOPPING CENTERS FUNDO DE INVESTIMENTO IMOBILIARIO – FII",
+        "cnpj": "17554274000125"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_LEONARDO/20210922154655801-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Barão de São Francisco",
+      "numero": "236",
+      "bairro": "Vila Isabel",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_INDEX_LBV_2 CORP LBV 2",
+    "dataEmissao": "2021-09-14",
+    "dataVencimento": "2036-09-22",
+    "quantidadeEmitida": 48701,
+    "valorTotal": 48701000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_INDEX_LBV_2/20210917203404357-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 9.25,
+        "cota": null
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "PIEMONTE – FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+        "cnpj": "36258924000130"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_INDEX_LBV_2/20210922201935570-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Lote nº 73 - A",
+      "numero": "Quadra 415",
+      "bairro": "SGA/SUL",
+      "cidade": "Brasília",
+      "estado": "DF"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_HGI_CHARME_DA_VILLA PULV CHARME DA VILLA",
+    "dataEmissao": "2021-09-13",
+    "dataVencimento": "2031-09-24",
+    "quantidadeEmitida": 18000,
+    "valorTotal": 18000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_HGI_CHARME_DA_VILLA/20211008130021140-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 12,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "Associação de Adquirentes de Unidades do Condomínio de Construção Charme da Villa – ACCV",
+        "cnpj": "36550985000176"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_HGI_CHARME_DA_VILLA/20211025164741031-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Fabiano Alves",
+      "numero": "105",
+      "bairro": "Vila Prudente",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_BRAP_A-TOWN A-TOWN",
+    "dataEmissao": "2021-08-24",
+    "dataVencimento": "2041-08-27",
+    "quantidadeEmitida": 200000,
+    "valorTotal": 200000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20210826195709511-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 5.5,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "Não aplicável",
+        "cnpj": "98842809000165"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20220210172432711-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20220210172455558-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20220210172414862-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20220210171322233-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20220210171107967-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20220210171218928-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20220210171415611-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20220210170927148-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20220210171017948-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20220117190818264-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20220117190621783-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BRAP_A-TOWN/20210830212805913-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Avenida Presidente Tancredo de Almeida Neves",
+      "numero": "759",
+      "bairro": "Macedo",
+      "cidade": "Guarulhos",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_IRIDIUM_YOU YOU LIVINA",
+    "dataEmissao": "2021-08-23",
+    "dataVencimento": "2026-08-20",
+    "quantidadeEmitida": 45300,
+    "valorTotal": 45300000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_IRIDIUM_YOU/20210824192049261-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "DI",
+        "juros": 4.9,
+        "cota": "única"
+      },
+      {
+        "indexador": "DI",
+        "juros": 4.9,
+        "cota": null
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "LIVINA EMPREENDIMENTO IMOBILIÁRIO LTDA",
+        "cnpj": "37039937000180"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_IRIDIUM_YOU/20210831150944037-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "",
+      "numero": "",
+      "bairro": "Vila Mariana;Indianópolis",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_BREI_BRASPARK BRASPARK",
+    "dataEmissao": "2021-08-20",
+    "dataVencimento": "2031-08-20",
+    "quantidadeEmitida": 50000,
+    "valorTotal": 50000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BREI_BRASPARK/20210823151203493-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 7.5,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "BRK II GESTÃO E PARTICIPAÇÕES SPE S/A",
+        "cnpj": "42686374000152"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_BREI_BRASPARK/20210827173517895-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Roddovia SC 417",
+      "numero": "11915",
+      "bairro": "",
+      "cidade": "Garuva",
+      "estado": "SC"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_IBBA_SENDAS SENDAS",
+    "dataEmissao": "2021-08-18",
+    "dataVencimento": "2033-11-29",
+    "quantidadeEmitida": 103790,
+    "valorTotal": 103790000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_IBBA_SENDAS/20210819204430251-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 6.1518,
+        "cota": null
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "SENDAS DISTRIBUIDORA S.A.",
+        "cnpj": "06057223000171"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_IBBA_SENDAS/20211028224228887-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_IBBA_SENDAS/20210824122219525-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Rodovia BR 415",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Itapetinga",
+      "estado": "BA"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_ONM_HEALTH ONM HEALTH",
+    "dataEmissao": "2021-08-16",
+    "dataVencimento": "2031-08-15",
+    "quantidadeEmitida": 60000,
+    "valorTotal": 60000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ONM_HEALTH/20210823132507983-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 7.3557,
+        "cota": null
+      },
+      {
+        "indexador": "IPCA",
+        "juros": 7.3557,
+        "cota": null
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "ONM HEALTH S.A.",
+        "cnpj": "11292024000188"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ONM_HEALTH/20210827130455433-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Dona Luiza",
+      "numero": "311",
+      "bairro": "Milionários",
+      "cidade": "Belo Horizonte",
+      "estado": "MG"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_HEDGE_INVESTIMENTOS HEDGE - IZP Franca",
+    "dataEmissao": "2021-08-16",
+    "dataVencimento": "2031-08-18",
+    "quantidadeEmitida": 23000,
+    "valorTotal": 23000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_HEDGE_INVESTIMENTOS/20210817122916445-Termo_de_Securitização.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 7.5,
+        "cota": null
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "Mustacchi Advogados",
+        "cnpj": "19027736000181"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_HEDGE_INVESTIMENTOS/20210823183308543-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "",
+      "numero": "",
+      "bairro": "Jardim Paulista",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_XP_RIO_CLARO RIO CLARO (RCP)",
+    "dataEmissao": "2021-08-16",
+    "dataVencimento": "2036-08-26",
+    "quantidadeEmitida": 42000,
+    "valorTotal": 42000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_XP_RIO_CLARO/20210913151926105-CRI RCP - Termo de Securitização (LDR 10.08.2021) (versão final).pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 6.8,
+        "cota": null
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "RIO CLARO – PATRIMONIAL E ASSESSORIA LTDA.",
+        "cnpj": "05009638000107"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_XP_RIO_CLARO/20210817170644998-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_XP_RIO_CLARO/20210813175855698-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Rio Claro",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_ATHENA_I ATHENA I",
+    "dataEmissao": "2021-08-04",
+    "dataVencimento": "2029-02-15",
+    "quantidadeEmitida": 29417,
+    "valorTotal": 29417241.14,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ATHENA_I/202189134238484-Termo de Securitização CRI Athena Capitânia - i2a 040821 Versão Assinatura.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 6.25,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "SAGUIA ADMINISTRADORA DE BENS LTDA - EPP",
+        "cnpj": "24301190000145"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_ATHENA_I/20210813183938141-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CID_-BRIO01 HANEI MINORU",
+    "dataEmissao": "2021-07-23",
+    "dataVencimento": "2025-07-23",
+    "quantidadeEmitida": 55000,
+    "valorTotal": 55000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CID_-BRIO01/2021726121849207-CRI Brio Hanei  - Termo de Securitização - versão final - TCMB 23072021.docx.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 10.5,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "INÁCIO LUIZ OESTE CLUB EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA",
+        "cnpj": "14360485000139"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CID_-BRIO01/20210811181328135-Aditamento.pdf"
+    ],
+    "localizacao": {
+      "rua": "Avenida Geral Charles de Gaulle",
+      "numero": "53",
+      "bairro": "Parque São Domingos",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CID250-CYANO01 GAFISA CYANO",
+    "dataEmissao": "2021-07-08",
+    "dataVencimento": "2024-11-22",
+    "quantidadeEmitida": 80000,
+    "valorTotal": 80000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CID250-CYANO01/20217821158332-CRI Gafisa - Termo de Securitização 07.07.2021 (enviado ao WGL).pdf",
+    "ativos": [
+      {
+        "indexador": "DI",
+        "juros": null,
+        "cota": ""
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "APOGEE EMPREENDIMENTO IMOBILIÁRIO S.A.",
+        "cnpj": "07984072000160"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CID250-CYANO01/2021719134348885-CRI Gafisa - Aditamento ao Termo de Securitização 16.07.2021.pdf"
+    ],
+    "localizacao": {
+      "rua": "Avenida Lúcio Costa",
+      "numero": "4216",
+      "bairro": "Jacarepaguá",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_CAPTANIA VIUR",
+    "dataEmissao": "2021-07-07",
+    "dataVencimento": "2033-06-20",
+    "quantidadeEmitida": 100000,
+    "valorTotal": 100000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CAPTANIA/20217622113881-Termo de Securitização - CRI VIUR Ânima - i2a 050721 Versão 04 (assinada).pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 5.6,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "VINCI IMÓVEIS URBANOS FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+        "cnpj": "36445587000190"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CAPTANIA/20210915191149643-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CAPTANIA/2021713122041541-1º Aditamento ao Termo de Securitização - CRI VIUR Ânima - i2a 120721 Versão 01 (assinada).pdf"
+    ],
+    "localizacao": {
+      "rua": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "",
+      "estado": "RS"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_JPP_IBEN_2 IBEN 2",
+    "dataEmissao": "2021-07-07",
+    "dataVencimento": "2029-10-15",
+    "quantidadeEmitida": 11500,
+    "valorTotal": 11500000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_JPP_IBEN_2/202178124426773-CRI Virgo - IBEN - Termo de Securitização_Versão Assinatura_PP 070721-Manifesto.pdf",
+    "ativos": [
+      {
+        "indexador": "DI",
+        "juros": null,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "EME PARTICIPACOES EIRELI",
+        "cnpj": "24313106000103"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_JPP_IBEN_2/2021715122834924-CRI Virgo - IBEN -  Primeiro Aditamento ao Termo de Securitização_Versão Final_PP 120721.DOCX.pdf"
+    ],
+    "localizacao": {
+      "rua": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Indaiatuba",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_CEMARA CEMARA",
+    "dataEmissao": "2021-07-06",
+    "dataVencimento": "2036-06-18",
+    "quantidadeEmitida": 42300,
+    "valorTotal": 42300000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CEMARA/202177204224833-19_CRI_Sol_Nascente_Termo_de_Securitização_Final_Assinada.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 9,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "SOL NASCENTE BRAGANÇA  EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA",
+        "cnpj": "26712234000155"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_CEMARA/2021713215429655-03_CRI_Sol_Nascente_Aditamento_ao_Termo_de_Securitização_12.07.2021_(limpa).pdf"
+    ],
+    "localizacao": {
+      "rua": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Bragança Paulista",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_HSI_PROJETO_OSCAR PROJETO OSCAR",
+    "dataEmissao": "2021-06-25",
+    "dataVencimento": "2033-06-15",
+    "quantidadeEmitida": 46322,
+    "valorTotal": 46322000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_HSI_PROJETO_OSCAR/2021617151113314-Termo_de_Securitização_v assinada.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 6.47,
+        "cota": "única"
+      },
+      {
+        "indexador": "IPCA",
+        "juros": 6.47,
+        "cota": "única"
+      },
+      {
+        "indexador": "IPCA",
+        "juros": 6.47,
+        "cota": "única"
+      },
+      {
+        "indexador": "IPCA",
+        "juros": 6.47,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "Emiliano Empreendimentos e Participações Hoteleiras Sociedade  Ltda",
+        "cnpj": "04433548000186"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_HSI_PROJETO_OSCAR/20217714242579-DocuSign_CRI_HSI_1º_Aditamento_ao_TS_v_assin.pdf"
+    ],
+    "localizacao": {
+      "rua": "",
+      "numero": "",
+      "bairro": "",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CID255-INVER01 GAFISA INVERT",
+    "dataEmissao": "2021-06-22",
+    "dataVencimento": "2025-06-05",
+    "quantidadeEmitida": 120000,
+    "valorTotal": 120000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CID255-INVER01/2021624143733281-CRI Invert - Termo de Securitizaçao.pdf",
+    "ativos": [
+      {
+        "indexador": "DI",
+        "juros": 4,
+        "cota": null
+      },
+      {
+        "indexador": "DI",
+        "juros": 4,
+        "cota": null
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "UPCON 33 EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA",
+        "cnpj": "33518766000111"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CID255-INVER01/20220110162742418-Aditamento.pdf",
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CID255-INVER01/202171141223601-CRI Invert - 1º Adit. ao Termo de Securitizaçao.pdf"
+    ],
+    "localizacao": {
+      "rua": "Otávio Tarquínio de Souza",
+      "numero": "1222",
+      "bairro": "Campo Belo",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_GUIDE_COPAGRILL COPAGRILL",
+    "dataEmissao": "2021-06-21",
+    "dataVencimento": "2031-06-16",
+    "quantidadeEmitida": 100000,
+    "valorTotal": 100000000,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_GUIDE_COPAGRILL/2021624143655256-CRI_Copagril_II_-_TS_v.f._21.06.2021.DOCX.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 6.5,
+        "cota": "única"
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "Cooperativa Agroindustrial Copagril",
+        "cnpj": "81584278000155"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_GUIDE_COPAGRILL/20217114954650-CRI_Copagril_II_-_TS_Aditamento_v.f._29.06.2021.DOCX.pdf"
+    ],
+    "localizacao": {
+      "rua": "Avenida Maripá",
+      "numero": "",
+      "bairro": "Marechal",
+      "cidade": "Cândido Rondon",
+      "estado": "PR"
+    }
+  },
+  {
+    "emissor": {
+      "nome": "Virgo Companhia de Securitização",
+      "cnpj": "08769451000108"
+    },
+    "nome": "CRI_OBA ARAÚJO FONTES OBA",
+    "dataEmissao": "2021-06-21",
+    "dataVencimento": "2033-06-27",
+    "quantidadeEmitida": 82305,
+    "valorTotal": 82305180.53999999,
+    "termoSecuritizacao": "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_OBA/2021628162617347-Termo_de_Securitização_-_CRI_Oba_-_TCMB_22062021_-_Versão_Assinatura.DOCX.pdf",
+    "ativos": [
+      {
+        "indexador": "IPCA",
+        "juros": 6.4,
+        "cota": null
+      },
+      {
+        "indexador": "IPCA",
+        "juros": 6.4,
+        "cota": null
+      },
+      {
+        "indexador": "IPCA",
+        "juros": 6.4,
+        "cota": null
+      },
+      {
+        "indexador": "IPCA",
+        "juros": 6.4,
+        "cota": null
+      }
+    ],
+    "cedentes": [
+      {
+        "nome": "CABEF EMPREENDIMENTOS E PARTICIPAÇÕES LTDA.",
+        "cnpj": "38493857000163"
+      }
+    ],
+    "adiantamentos": [
+      "https://vrgsitestorage.blob.core.windows.net/files-ri-vrg/DOCEMISSOES/CRI_OBA/2021628203426888-Primeiro Aditamento ao Termo de Securitização - CRI Oba - TCMB 27062021 Versão Assinatura - Limpa.do.pdf"
+    ],
+    "localizacao": {
+      "rua": "",
+      "numero": "",
+      "bairro": "",
       "cidade": "",
       "estado": "SP"
     }
