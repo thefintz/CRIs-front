@@ -59,21 +59,29 @@ const SearchPage = (props) => {
     <>
       <Navbar/>
       <br></br>
-      <h1>CRIs</h1>
+      
+      <div class="columns">
 
-      <FiltroEstado
-        estado={estado}
-        onChange={updateEstado}
-      />
-      <FiltroCidade
-        input={input}
-        onChange={updateInput}
-      />
-      <FiltroVolumeMinimo
-        volumeMinimo={volumeMinimo}
-        onChange={updateVolumeMinimo}
-      />
-      <CRIsList crisList={crisList} />
+        <div class="column">
+          <br></br>
+          <h1 class="is-size-3 mb-3">Fintz DCM</h1>
+          <FiltroEstado
+            estado={estado}
+            onChange={updateEstado}
+          />
+          <FiltroCidade
+            input={input}
+            onChange={updateInput}
+          />
+          <FiltroVolumeMinimo
+            volumeMinimo={volumeMinimo}
+            onChange={updateVolumeMinimo}
+          />
+        </div>
+        <div class="column is-half">
+          <CRIsList crisList={crisList} />
+        </div>
+      </div>
     </>
   );
 }
