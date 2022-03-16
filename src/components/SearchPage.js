@@ -45,7 +45,7 @@ const SearchPage = (props) => {
       return crisData.valorTotal >= volumeMinimo * 1_000_000
     })
     const filteredEstado = crisListDefault.filter(cri => {
-      return estado === 'All' ? true : cri.localizacao.estado === estado
+      return estado === '' ? true : cri.localizacao.estado === estado
     })
     const multiFilter0 = crisListDefault.filter(value => filteredInput.includes(value));
     const multiFilter1 = multiFilter0.filter(value => filteredVolumeMinimo.includes(value));
