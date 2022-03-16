@@ -1859,7 +1859,7 @@ const data = [
       "estado": "SP"
     }
   }
-]
+];
 
 
 export default data
